@@ -50,7 +50,7 @@ public class LibraryEventsControllerIntegrationTest {
 
     @Test
     @Timeout(5)
-    void postLibraryEvent() throws InterruptedException {
+    void postLibraryEvent() {
         Book book = Book.builder()
                 .bookId(123)
                 .bookAuthor("Yazan")
